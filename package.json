@@ -1,0 +1,23 @@
+{
+  "name": "tweeter-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "logic.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "review": "node node_modules/elevation-pr/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tameram/Tweeter-web-app.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tameram/Tweeter-web-app/issues"
+  },
+  "homepage": "https://github.com/tameram/Tweeter-web-app#readme",
+  "dependencies": {
+    "elevation-pr": "^2.1.0"
+  }
+}

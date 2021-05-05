@@ -62,15 +62,29 @@ const Tweeter = function () {
     }
 }
 
-// const tweeter = Tweeter()
+const tweeter = Tweeter()
 
-// tweeter.addPost("This is my own post!")
-// tweeter.addPost("This is my own post!")
-// tweeter.addPost("This is my own post!")
-// tweeter.addPost("This is my own post!")
-// tweeter.addPost("This is my own post!")
-// tweeter.addPost("This is my own post!")
-// console.log(tweeter.getPosts())
+tweeter.addPost("This is my own post!")
+tweeter.addPost("This is my own post!")
+tweeter.addPost("This is my own post!")
+tweeter.addPost("This is my own post!")
+tweeter.addPost("This is my own post!")
+tweeter.addPost("This is my own post!")
+
+
+tweeter.addComment("Damn straight it is!", "p3")
+tweeter.addComment("Second the best!", "p2")
+tweeter.addComment("Damn straight it is!", "p3")
+tweeter.addComment("Second the best!", "p2")
+tweeter.addComment("Damn straight it is!", "p3")
+tweeter.addComment("Second the best!", "p2")
+tweeter.addComment("Damn straight it is!", "p3")
+tweeter.addComment("Second the best!", "p2")
+tweeter.addComment("Damn straight it is!", "p3")
+tweeter.addComment("Second the best!", "p2")
+
+const Render = Renderer()
+console.log(Render.renderPosts(tweeter.getPosts()))
 // //This should be added to the posts array:
 // //{text: "This is my own post!", id: "p3", comments: []}
 
@@ -87,16 +101,7 @@ const Tweeter = function () {
 // //============================
 // //============================
 
-// tweeter.addComment("Damn straight it is!", "p3")
-// tweeter.addComment("Second the best!", "p2")
-// tweeter.addComment("Damn straight it is!", "p3")
-// tweeter.addComment("Second the best!", "p2")
-// tweeter.addComment("Damn straight it is!", "p3")
-// tweeter.addComment("Second the best!", "p2")
-// tweeter.addComment("Damn straight it is!", "p3")
-// tweeter.addComment("Second the best!", "p2")
-// tweeter.addComment("Damn straight it is!", "p3")
-// tweeter.addComment("Second the best!", "p2")
+
 // console.log(tweeter.getPosts())
 // //This should be added to the third post's comments array:
 // //{id: "c7", text: "Damn straight it is!"}
